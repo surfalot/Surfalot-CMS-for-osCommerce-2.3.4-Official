@@ -59,7 +59,9 @@ files into your current shop. If you have not modified these files in your
 shop you may overwrite them.
 
 /includes/application_top.php
+
 /includes/template_top.php
+
 /includes/classes/osc_template.php
 
 All of the remaining files are unique and may be simply uploaded to your shop.

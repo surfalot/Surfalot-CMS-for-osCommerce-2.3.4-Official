@@ -75,3 +75,10 @@ ensure you have copied the language files to your other language folders.
 Go to your shop Admin and navigate to Surfalot CMS tools menu, click List All.
 You will find a link to "Installation" in the upper right of this page. follow
 the Configuration section to complete the installation.
+
+
+Questions, Comments, or Concerns?
+=================================
+
+Please use the following forum at osCommerce.com:
+https://forums.oscommerce.com/topic/412225-surfalot-cms-app-support/#comment-1763471

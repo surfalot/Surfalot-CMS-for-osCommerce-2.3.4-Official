@@ -49,7 +49,7 @@ https://apps.oscommerce.com/iJnr7&surfalot-cms-app
 Installation
 ============
 
-Full documentation, including an installation doc, can be found in this folder:
+Full documentation, including an installation doc, can be found in this folder:  
 /includes/apps/surfcms/docs/
 
 Or continue here...
@@ -58,11 +58,9 @@ Use comparison software like Beyond Compare to merge changes to the following
 files into your current shop. If you have not modified these files in your
 shop you may overwrite them.
 
-/includes/application_top.php
-
-/includes/template_top.php
-
-/includes/classes/osc_template.php
+| /includes/application_top.php  
+| /includes/template_top.php  
+| /includes/classes/osc_template.php  
 
 All of the remaining files are unique and may be simply uploaded to your shop.
 
@@ -80,5 +78,6 @@ the Configuration section to complete the installation.
 Questions, Comments, or Concerns?
 =================================
 
-Please use the following forum at osCommerce.com:
+Please use the following forum at osCommerce.com:  
+
 https://forums.oscommerce.com/topic/412225-surfalot-cms-app-support/#comment-1763471

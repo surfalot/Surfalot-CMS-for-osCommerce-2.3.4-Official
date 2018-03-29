@@ -33,13 +33,13 @@
 
     function execute() {
       global $oscTemplate, $surfcms;
-      
-      if ( isset($surfcms) && is_object($surfcms) && (get_class($surfcms) == 'surfcms') ) {
-        $nav_array = $surfcms->getNavigation('box');
-      }
+	  
+	  if ( isset($surfcms) && is_object($surfcms) && (get_class($surfcms) == 'surfcms') ) {
+	    $nav_array = $surfcms->getNavigation('box');
+	  }
 
-      if (is_array($nav_array) && sizeof($nav_array) > 0) {
-          
+	  if (is_array($nav_array) && sizeof($nav_array) > 0) {
+		  
         $data = '<div class="ui-widget infoBoxContainer">' .
                 '  <div class="ui-widget-header infoBoxHeading">' . SURFCMS_BOX_TITLE . '</div>' .
                 '  <div class="ui-widget-content infoBoxContents">';
@@ -50,9 +50,10 @@
               
         $data .= '  </div>' .
                 '</div>';
-        
+		
         $oscTemplate->addBlock($data, $this->group, $this->sort_order);
-      }
+		
+	  }
     }
 
     function isEnabled() {
